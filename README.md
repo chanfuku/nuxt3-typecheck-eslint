@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# nuxt3-typecheck-eslint
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -38,6 +38,38 @@ yarn dev
 bun run dev
 ```
 
+## Test Type
+
+```bash
+# npm
+npm run type-check
+
+# pnpm
+pnpm run type-check
+
+# yarn
+yarn type-check
+
+# bun
+bun run type-check
+```
+
+## Lint Code
+
+```bash
+# npm
+npm run lint
+
+# pnpm
+pnpm run lint
+
+# yarn
+yarn lint
+
+# bun
+bun run lint
+```
+
 ## Production
 
 Build the application for production:
@@ -73,3 +105,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
