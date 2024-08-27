@@ -1,0 +1,24 @@
+{
+  "name": "nuxt3-typecheck-eslint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.4",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.5.3",
+    "eslint": "^9.9.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
