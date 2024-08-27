@@ -6,6 +6,6 @@
 </template>
 
 <script setup lang="ts">
-//
 const hoge: string = 'hoge';
+console.log(hoge);
 </script>

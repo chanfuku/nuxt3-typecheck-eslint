@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+yarn type-check
+yarn lint-staged

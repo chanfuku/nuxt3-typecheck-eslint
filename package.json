@@ -25,6 +25,8 @@
     "lint-staged": "^15.2.9"
   },
   "lint-staged": {
-    "*.{vue,ts}": "yarn lint"
+    "*": [
+      "yarn lint"
+    ]
   }
 }
