@@ -38,7 +38,7 @@ yarn dev
 bun run dev
 ```
 
-## Test Type
+## Check Types
 
 ```bash
 # npm
